@@ -12,5 +12,8 @@ namespace wcf_essential_l1_1.Client
     {
         [OperationContract]
         void Say(string input);
+
+        [OperationContract]
+        string Method(string message);
     }
 }

@@ -12,5 +12,10 @@ namespace wcf_essential_l1_1.Server
         {
             Console.WriteLine($"Message received, Body contains: {input}");
         }
+        public string Method(string message)
+        {
+            Console.WriteLine("New message!");
+            return "OK";
+        }
     }
 }
