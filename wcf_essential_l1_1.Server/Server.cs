@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace wcf_essential_l1_1.Server
 {
-    class Program
+    class Server
     {
         static void Main(string[] args)
         {

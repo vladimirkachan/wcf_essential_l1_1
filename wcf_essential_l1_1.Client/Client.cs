@@ -18,6 +18,7 @@ namespace wcf_essential_l1_1.Client
             ChannelFactory<IContract> factory = new(binding, endpoint);
             IContract channel = factory.CreateChannel();
             channel.Say("Message from Client application");
+            Console.WriteLine(channel.Method("Second Client message"));
             Console.ReadKey();
         }
     }
